@@ -51,3 +51,21 @@
   border-left: 5px dotted saddlebrown;
   border-bottom: 5px double sienna;
 }
+
+.boxsizing {
+  width: 75%;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.p6 {
+  background-color: aquamarine;
+  padding: 10px;
+  border: 15px double blue;
+}
+
+.p7 {
+  background-color: greenyellow;
+  padding: 30px;
+  border: 10px dotted limegreen;
+}
