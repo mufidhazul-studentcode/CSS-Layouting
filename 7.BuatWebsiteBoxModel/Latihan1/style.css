@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,75 +104,79 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* style */
 body {
-    font: 16px/28px, 'product sans', helvetica, sans-serif;
-    background-color: rgb(194, 255, 194);
-    color: rgb(1, 63, 1);
+  font: 16px/28px, "product sans", helvetica, sans-serif;
+  background-color: rgb(194, 255, 194);
+  color: rgb(1, 63, 1);
 }
 
 .container {
-    background-color: lemonchiffon;
-    width: 75%;
-    margin: auto;
+  background-color: lemonchiffon;
+  width: 75%;
+  margin: auto;
 }
 
 .header {
-    padding: 20px;
+  padding: 20px;
 }
 
 .header .judul {
-    font-size: 30px;
-    font-weight: bolder;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .header ul li {
-    display: inline-block;
-    margin-top: 15px;
-    margin-right: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
 .header ul li a {
-    text-decoration: none;
-    color: green;
-    padding: 5px;
+  text-decoration: none;
+  color: green;
+  padding: 5px;
 }
 
 .header a:hover {
-    background-color: rgb(198, 255, 113);
-    color: green;
+  background-color: rgb(198, 255, 113);
+  color: green;
 }
 
 .hero {
-    width: ;
+  height: 250px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -85px;
+  border-top: 5px solid sa;
 }
