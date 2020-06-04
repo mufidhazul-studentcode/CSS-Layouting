@@ -136,15 +136,16 @@ table {
 
 /* style */
 body {
-  font: 16px/28px, "product sans", helvetica, sans-serif;
+  font: 16px/28px "product sans", helvetica, sans-serif;
   background-color: rgb(194, 255, 194);
   color: rgb(1, 63, 1);
+  background-image: url(img/green-goblin.png);
 }
 
 .container {
   background-color: lemonchiffon;
-  width: 75%;
-  margin: auto;
+  width: 1000px;
+  margin: 50px auto;
 }
 
 .header {
@@ -174,9 +175,47 @@ body {
 }
 
 .hero {
-  height: 250px;
+  height: 400px;
   background-image: url(img/hero.jpg);
   background-size: cover;
-  background-position: 0 -85px;
-  border-top: 5px solid sa;
+  background-position: 0 -200px;
+  border-top: 5px solid skyblue;
+  border-bottom: 5px solid sandybrown;
+}
+.content {
+  padding: 20px;
+}
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+.content .penulis a {
+  color: maroon;
+  text-decoration: none;
+}
+.content .penulis a:hover {
+  color: antiquewhite;
+  background-color: brown;
+}
+.content h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.content p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.footer {
+  background-color: chocolate;
+  padding: 10px;
+  text-align: center;
+  font-size: 11px;
+}
+.footer .copy {
+  color: beige;
+  font-size: 13px;
+}
+.footer .copy2 {
+  margin-top: -10px;
+  color: lightgray;
 }
