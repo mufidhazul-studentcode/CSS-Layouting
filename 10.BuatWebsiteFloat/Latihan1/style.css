@@ -144,7 +144,7 @@ body {
 
 .container {
   background-color: lemonchiffon;
-  width: 1000px;
+  width: 960px;
   margin: 50px auto;
 }
 
@@ -182,28 +182,49 @@ body {
   border-top: 5px solid skyblue;
   border-bottom: 5px solid sandybrown;
 }
-.content {
+.main {
   padding: 20px;
+  width: 600px;
+  box-sizing: border-box;
+  float: left;
 }
-.content .penulis {
+.main .penulis {
   font-size: 11px;
   margin-top: -5px;
 }
-.content .penulis a {
+.main .penulis a {
   color: maroon;
   text-decoration: none;
 }
-.content .penulis a:hover {
+.main .penulis a:hover {
   color: antiquewhite;
   background-color: brown;
 }
-.content h2 {
+.main h2 {
   font-size: 25px;
   font-weight: bold;
 }
-.content p {
+.main p {
   margin-bottom: 20px;
   font-size: 15px;
+}
+/* sidebar */
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+.sidebar img {
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+.sidebar h3 {
+  font-weight: bold;
+  font-size: large;
+}
+.sidebar p {
+  font: 13px/18px ubuntu, helvetica, sans-serif;
 }
 .footer {
   background-color: chocolate;
@@ -218,4 +239,19 @@ body {
 .footer .copy2 {
   margin-top: -10px;
   color: lightgray;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
 }
