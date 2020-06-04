@@ -1,0 +1,39 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  border: 1px solid green;
+  padding: 5px;
+}
+.kiri {
+  width: 200px;
+  height: 500px;
+  background-color: maroon;
+  color: azure;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.tengah {
+  width: 600px;
+  height: 500px;
+  background-color: limegreen;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.kanan {
+  width: 200px;
+  height: 500px;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
